@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="2cf8-1477-0508-7b2f" name="Chaos Library" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0634-a3c9-023f-e93a" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="3011-13c5-899b-a41c" name="Chaos Cultist" hidden="false"/>
+    <categoryEntry id="2446-6d4e-ae02-0b3d" name="Daemon" hidden="false"/>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="cb60-1a53-a95c-befb" name="Units" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntries>
+        <selectionEntry id="3a8e-6036-8358-aeb1" name="Chaos Spawn" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="3b63-4a39-e001-ec5e" name="KEYWORDS: &lt;Unit Name&gt;" hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+            <categoryLink id="addf-0d2f-1cd5-07bc" name="Beast" hidden="false" targetId="b435-4c25-7f13-9777" primary="false"/>
+            <categoryLink id="6a45-81ab-5f6a-3095" name="Special" hidden="false" targetId="c1af-f843-ed56-b7ab" primary="true"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="23.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7e95-8171-1a9b-8b16" name="Chaos Cultist" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="62db-753b-d2da-2592" name="KEYWORDS: &lt;Unit Name&gt;" hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+            <categoryLink id="711d-042d-a30f-b97f" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+            <categoryLink id="6699-2dea-9853-a546" name="Chaos Cultist" hidden="false" targetId="3011-13c5-899b-a41c" primary="false"/>
+            <categoryLink id="2ce7-d702-06b6-79a6" name="Core" hidden="false" targetId="4f8c-447f-b2e9-6dbb" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="0140-96f9-a3ae-af75" name="Cultist weapons" hidden="false" collective="false" import="true" targetId="3a11-22ae-0835-9224" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4805-dc5a-e920-3864" name="Cultist Champion" hidden="false" collective="false" import="true" type="upgrade">
+          <categoryLinks>
+            <categoryLink id="d9b7-c7aa-f51c-6a8e" name="KEYWORDS: &lt;Unit Name&gt;" hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+            <categoryLink id="669b-4eca-7bf9-821f" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+            <categoryLink id="1ddb-c074-2b8d-91b0" name="Character" hidden="false" targetId="e7ec-a4bf-d6fe-9121" primary="false"/>
+            <categoryLink id="25ef-e0c1-0be3-2024" name="Chaos Cultist" hidden="false" targetId="3011-13c5-899b-a41c" primary="false"/>
+            <categoryLink id="9d4b-eca4-7be1-fd3c" name="Leader" hidden="false" targetId="7509-dc8e-1dec-f3a5" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="e558-88f2-a317-9402" name="Cultist weapons" hidden="false" collective="false" import="true" targetId="3a11-22ae-0835-9224" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="3a11-22ae-0835-9224" name="Cultist weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="635d-054c-9f7b-3e4a">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bbc-22b3-a222-7f6b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e986-77c3-94ca-19b7" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="635d-054c-9f7b-3e4a" name="Brutal assault weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6564-3a66-dde0-76aa" name="Special weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4805-dc5a-e920-3864" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e151-9539-51f7-422e" name="Special weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="7f6b-5af8-c20a-bc83">
+              <modifiers>
+                <modifier type="increment" field="f6fc-04a0-9067-b382" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="force" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3011-13c5-899b-a41c" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f6fc-04a0-9067-b382" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1beb-011b-140a-6456" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be36-6fb3-6d71-5278" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="7f6b-5af8-c20a-bc83" name="Flamer" hidden="false" collective="false" import="true" targetId="3b81-4c42-8273-15aa" type="selectionEntry"/>
+                <entryLink id="fc9d-5b3d-2e3b-26ac" name="Heavy stubber" hidden="false" collective="false" import="true" targetId="1dc6-a430-23a0-f48d" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="3512-73aa-a6c5-fc82" name="Lasgun" hidden="false" collective="false" import="true" targetId="9855-78cf-d04e-614f" type="selectionEntry"/>
+        <entryLink id="bdf8-dd09-b058-700b" name="Shotgun" hidden="false" collective="false" import="true" targetId="cec1-ed26-0309-8e1d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4805-dc5a-e920-3864" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="5b9c-ad4c-b28c-ad6a" name="Laspistol" hidden="false" collective="false" import="true" targetId="a31f-db17-0e31-a12f" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink id="957b-2c47-3cf9-8777" name="Library" targetId="578d-0bea-7a69-2be0" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

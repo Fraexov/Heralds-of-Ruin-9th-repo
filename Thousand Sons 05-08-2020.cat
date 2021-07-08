@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4750-eb0e-9e2c-b731" name="Thousand Sons" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0634-a3c9-023f-e93a" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="e804-4107-1fc9-f984" name="FACTION: Chaos, Heretic Astartes, Tzeentch, Thousand Sons" hidden="false"/>
+    <categoryEntry id="720b-236c-0a6c-1b11" name="Rubric Marine" hidden="false"/>
+    <categoryEntry id="ba8e-3e87-edda-6266" name="Tzaangor" hidden="false"/>
+    <categoryEntry id="6d5e-ce64-6041-dcb7" name="Scarab Occult Terminator" hidden="false"/>
+    <categoryEntry id="e34f-85c5-093f-eee6" name="Shaman" hidden="false"/>
+    <categoryEntry id="4079-8dc2-653e-fe91" name="Tzaangor Enlightened" hidden="false"/>
+    <categoryEntry id="5bf8-8f77-111d-8f2b" name="Aviarch" hidden="false"/>
+    <categoryEntry id="22fc-4d9f-dc4f-c8c8" name="Scarab Occult Sorcerer" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="aa0e-64e0-e381-44d4" name="Skirmish Team" hidden="false">
+      <categoryLinks>
+        <categoryLink id="89a6-c134-6ff9-ddc9" name="Configuration" hidden="false" targetId="2730-666a-ddd8-5e38" primary="false"/>
+        <categoryLink id="cf38-10eb-bc57-ab3e" name="Leader" publicationId="26e0-4e27-2727-0652" hidden="false" targetId="7509-dc8e-1dec-f3a5" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="617b-5b68-4ca7-fd11" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21bb-a4e1-722f-ee55" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="c220-6412-a8f7-c0e1" name="Core" publicationId="26e0-4e27-2727-0652" hidden="false" targetId="4f8c-447f-b2e9-6dbb" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc79-63f5-8d41-82d4" type="min"/>
+            <constraint field="selections" scope="roster" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2171-3002-fd4a-e6f1" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5060-7617-b043-4f3c" name="Special" publicationId="26e0-4e27-2727-0652" hidden="false" targetId="c1af-f843-ed56-b7ab" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bfb-40b2-8be6-1124" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="64a5-3a6c-9f64-258e" name="[Reference] Daemonic Ritual" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="e4a6-33bc-bd43-1570" name="Configuration" hidden="false" targetId="2730-666a-ddd8-5e38" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="74ae-daf1-53ae-d1ef" name="Pink Horror (value 3)" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="09c5-365b-0982-cc72" name="Flamer (value 6)" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="23.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1bed-b534-5cd9-92d4" name="Screamer (value 6)" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="26.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df0a-385c-f6a0-9b11" name="Aspiring Sorcerer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6634-24fe-3cc1-a8df" name="Smite (TS)" hidden="false" targetId="9c47-9e57-373f-172c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1dff-d269-550b-7db5" name="FACTION: Chaos, Heretic Astartes, Tzeentch, Thousand Sons" hidden="false" targetId="e804-4107-1fc9-f984" primary="false"/>
+        <categoryLink id="7c7e-395f-2c40-3e4d" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="8558-9864-9822-17c3" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="8e64-c6cd-bac5-371d" name="Psyker" hidden="false" targetId="2cdc-43a0-142d-2065" primary="false"/>
+        <categoryLink id="b665-ee13-73bd-e7af" name="Rubric Marine" hidden="false" targetId="720b-236c-0a6c-1b11" primary="false"/>
+        <categoryLink id="4e31-e68b-ce2f-f181" name="Character" hidden="false" targetId="e7ec-a4bf-d6fe-9121" primary="false"/>
+        <categoryLink id="1535-aac4-ad9e-7300" name="Leader" hidden="false" targetId="7509-dc8e-1dec-f3a5" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2f01-b7b0-3cc4-be26" name="Force weapon" hidden="false" collective="false" import="true" targetId="87bb-c80a-f0f3-2912" type="selectionEntryGroup"/>
+        <entryLink id="1eaf-c4c3-c86d-2712" name="Pistol" hidden="false" collective="false" import="true" targetId="4cf9-093d-1406-aa46" type="selectionEntryGroup"/>
+        <entryLink id="d945-659c-de61-cfc1" name="Armoury" hidden="false" collective="false" import="true" targetId="696b-cbc0-b5bf-36c1" type="selectionEntryGroup"/>
+        <entryLink id="69ee-e092-3016-d5d3" name="Psychic Discplines" hidden="false" collective="false" import="true" targetId="04b3-912e-24f8-9512" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="340d-8a97-0160-c117" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="37b4-5952-6cec-e5ed" name="Tzaangor Shaman Aspirant" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f302-71fb-76db-cf1c" name="Smite (TS)" hidden="false" targetId="9c47-9e57-373f-172c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="18c6-44e9-1ec4-3f3c" name="FACTION: Chaos, Heretic Astartes, Tzeentch, Thousand Sons" hidden="false" targetId="e804-4107-1fc9-f984" primary="false"/>
+        <categoryLink id="1e3e-52fe-6159-b9b5" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="4ae9-bcb9-5b66-fc99" name="Cavalry" hidden="false" targetId="5ebb-6a6b-0cd3-c2d0" primary="false"/>
+        <categoryLink id="5657-86fe-16ad-8f05" name="Fly" hidden="false" targetId="7718-b6f7-8dd2-fdf7" primary="false"/>
+        <categoryLink id="d85e-554a-d239-f035" name="Daemon" hidden="false" targetId="5f84-1a64-8e98-8e6c" primary="false"/>
+        <categoryLink id="5bc7-cec4-ac09-cb88" name="Shaman" hidden="false" targetId="e34f-85c5-093f-eee6" primary="false"/>
+        <categoryLink id="e13c-8db1-d619-fb39" name="Tzaangor" hidden="false" targetId="ba8e-3e87-edda-6266" primary="false"/>
+        <categoryLink id="944d-62a1-7169-7412" name="Character" hidden="false" targetId="e7ec-a4bf-d6fe-9121" primary="false"/>
+        <categoryLink id="a945-6f6c-4f1c-bb1b" name="Leader" hidden="false" targetId="7509-dc8e-1dec-f3a5" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b963-3b0e-5ddd-9613" name="Force weapon" hidden="false" collective="false" import="true" targetId="87bb-c80a-f0f3-2912" type="selectionEntryGroup"/>
+        <entryLink id="fc76-2372-68af-db7c" name="Armoury" hidden="false" collective="false" import="true" targetId="696b-cbc0-b5bf-36c1" type="selectionEntryGroup"/>
+        <entryLink id="831a-4281-66e1-5c4d" name="Discipline of Change" hidden="false" collective="false" import="true" targetId="3dd6-5424-4171-1901" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="166d-62ec-a1b9-b640" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3117-95fd-17ad-1b00" name="Shamanic abilities" hidden="false" collective="false" import="true" targetId="5a12-15d6-6f56-4d29" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="415c-8403-69e8-c43a" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2eb4-51cd-3feb-5a28" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fe13-ba94-c882-24b4" name="Scarab Occult Sorcerer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d89b-0258-dd9f-801b" name="Smite (TS)" hidden="false" targetId="9c47-9e57-373f-172c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bc05-d21e-bc10-2f9e" name="FACTION: Chaos, Heretic Astartes, Tzeentch, Thousand Sons" hidden="false" targetId="e804-4107-1fc9-f984" primary="false"/>
+        <categoryLink id="a39a-1940-e141-eb1f" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="678f-f711-2ee8-b2f7" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="81f3-0f0e-f403-531a" name="Psyker" hidden="false" targetId="2cdc-43a0-142d-2065" primary="false"/>
+        <categoryLink id="2827-393e-64f4-08af" name="Terminator" hidden="false" targetId="5ab2-3594-fad1-b8e7" primary="false"/>
+        <categoryLink id="1a3d-4ced-b2fa-af71" name="Scarab Occult Terminator" hidden="false" targetId="6d5e-ce64-6041-dcb7" primary="false"/>
+        <categoryLink id="ceda-5087-b84c-351d" name="Scarab Occult Sorcerer" hidden="false" targetId="22fc-4d9f-dc4f-c8c8" primary="false"/>
+        <categoryLink id="1124-554e-a765-1f71" name="Character" hidden="false" targetId="e7ec-a4bf-d6fe-9121" primary="false"/>
+        <categoryLink id="c1c0-d083-5c43-cce4" name="Leader" hidden="false" targetId="7509-dc8e-1dec-f3a5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8a7a-ccca-48db-df39" name="Ranged weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5232-2d76-7ffe-4f23">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82e3-a432-9433-531c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94ec-d762-1ee5-e1d1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="75ef-c8c9-4658-f96b" name="Force weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8003-d2c4-f8f8-29cc" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="df57-5621-5762-9638" name="Force weapon" hidden="false" collective="false" import="true" targetId="87bb-c80a-f0f3-2912" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="5232-2d76-7ffe-4f23" name="Inferno combi-bolter" hidden="false" collective="false" import="true" targetId="d0a8-5ed5-7e1b-05cb" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b529-2a84-28fb-94d8" name="Armoury" hidden="false" collective="false" import="true" targetId="696b-cbc0-b5bf-36c1" type="selectionEntryGroup"/>
+        <entryLink id="3f0b-b5d2-bed0-c65f" name="Psychic Discplines" hidden="false" collective="false" import="true" targetId="04b3-912e-24f8-9512" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c6b-b130-32a4-7655" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f993-e7c9-c6cf-01e8" name="Force weapon" hidden="false" collective="false" import="true" targetId="87bb-c80a-f0f3-2912" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="52.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7930-3dd8-7ace-b8a8" name="Twistbray" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="70f6-c044-ce01-2dcb" name="FACTION: Chaos, Heretic Astartes, Tzeentch, Thousand Sons" hidden="false" targetId="e804-4107-1fc9-f984" primary="false"/>
+        <categoryLink id="2b8c-8b79-c4bf-ff1d" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="c513-718e-7b8a-cf7d" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="d72b-dc80-4177-1ed9" name="Tzaangor" hidden="false" targetId="ba8e-3e87-edda-6266" primary="false"/>
+        <categoryLink id="a52c-cc26-9d93-fa96" name="Character" hidden="false" targetId="e7ec-a4bf-d6fe-9121" primary="false"/>
+        <categoryLink id="2c2a-7fa5-1fe8-68e7" name="Leader" hidden="false" targetId="7509-dc8e-1dec-f3a5" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="60df-996f-f38d-fc23" name="Melee weapon" hidden="false" collective="false" import="true" targetId="1938-e9ee-c2ef-879d" type="selectionEntryGroup"/>
+        <entryLink id="2cac-0da1-7866-bd75" name="Armoury" hidden="false" collective="false" import="true" targetId="696b-cbc0-b5bf-36c1" type="selectionEntryGroup"/>
+        <entryLink id="6037-3b3c-9781-b2fc" name="Shamanic abilities" hidden="false" collective="false" import="true" targetId="5a12-15d6-6f56-4d29" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8e2-9526-396e-1bf9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba51-8829-645d-7c7b" name="Aviarch" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="4d6b-dd12-5fc6-2175" name="FACTION: Chaos, Heretic Astartes, Tzeentch, Thousand Sons" hidden="false" targetId="e804-4107-1fc9-f984" primary="false"/>
+        <categoryLink id="1998-2ecb-09f5-7705" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="a5d5-e2d4-d6ad-6184" name="Cavalry" hidden="false" targetId="5ebb-6a6b-0cd3-c2d0" primary="false"/>
+        <categoryLink id="8692-a99b-6980-1430" name="Fly" hidden="false" targetId="7718-b6f7-8dd2-fdf7" primary="false"/>
+        <categoryLink id="873b-7fe2-4d8f-470e" name="Aviarch" hidden="false" targetId="5bf8-8f77-111d-8f2b" primary="false"/>
+        <categoryLink id="5178-9c08-2866-e458" name="Daemon" hidden="false" targetId="2446-6d4e-ae02-0b3d" primary="false"/>
+        <categoryLink id="e22c-18d1-c1d7-b65c" name="Tzaangor Enlightened" hidden="false" targetId="4079-8dc2-653e-fe91" primary="false"/>
+        <categoryLink id="4036-cd66-5dc5-237a" name="Character" hidden="false" targetId="e7ec-a4bf-d6fe-9121" primary="false"/>
+        <categoryLink id="f5b2-ee7d-692d-29e9" name="Leader" hidden="false" targetId="7509-dc8e-1dec-f3a5" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9ba0-301d-e5bc-5e79" name="Armoury" hidden="false" collective="false" import="true" targetId="696b-cbc0-b5bf-36c1" type="selectionEntryGroup"/>
+        <entryLink id="fa24-80f4-3666-2290" name="Shamanic abilities" hidden="false" collective="false" import="true" targetId="5a12-15d6-6f56-4d29" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="201e-5f6c-bfaf-fcc1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e349-1cc6-86c7-4336" name="Melee weapon (Enlight)" hidden="false" collective="false" import="true" targetId="756d-2383-73e7-f5b6" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5118-89db-0abf-8d49" name="Tzaangor" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="00a1-b138-e979-d94d" name="FACTION: Chaos, Heretic Astartes, Tzeentch, Thousand Sons" hidden="false" targetId="e804-4107-1fc9-f984" primary="false"/>
+        <categoryLink id="926a-b222-95b9-bdc3" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="663b-6e82-5c0b-9b47" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="d810-54f1-d07f-a4b5" name="Tzaangor" hidden="false" targetId="ba8e-3e87-edda-6266" primary="false"/>
+        <categoryLink id="3e72-9f78-3d30-9f8a" name="Core" hidden="false" targetId="4f8c-447f-b2e9-6dbb" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f7d4-35fc-d42f-41b6" name="Brayhorn" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ba8e-3e87-edda-6266" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc4c-a836-009a-a338" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b94d-8d1f-6e5f-11a6" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ce86-40f8-cd4b-29cb" name="Melee weapon" hidden="false" collective="false" import="true" targetId="1938-e9ee-c2ef-879d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fed9-fc9f-2e42-5735" name="Rubric Marine" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="6f81-b43e-f07f-b651" name="FACTION: Chaos, Heretic Astartes, Tzeentch, Thousand Sons" hidden="false" targetId="e804-4107-1fc9-f984" primary="false"/>
+        <categoryLink id="e373-5bd9-ede6-e8e3" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="3f52-5334-e82f-7513" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="016d-8d70-b222-83b1" name="Rubric Marine" hidden="false" targetId="720b-236c-0a6c-1b11" primary="false"/>
+        <categoryLink id="f89f-2120-e92a-fe35" name="Core" hidden="false" targetId="4f8c-447f-b2e9-6dbb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a68d-a643-dd7b-b6b6" name="Ranged weapon" hidden="false" collective="false" import="true" targetId="19d1-5352-2add-8cee" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bb1b-059a-d34a-97d3" name="Tzaangor Enlightened" hidden="false" collective="false" import="true" type="upgrade">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e3ee-df70-0d08-0a59" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="c1af-f843-ed56-b7ab"/>
+            <modifier type="set-primary" field="category" value="4f8c-447f-b2e9-6dbb"/>
+            <modifier type="add" field="category" value="4f8c-447f-b2e9-6dbb"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="57b0-693c-b750-d892" name="FACTION: Chaos, Heretic Astartes, Tzeentch, Thousand Sons" hidden="false" targetId="e804-4107-1fc9-f984" primary="false"/>
+        <categoryLink id="94fa-a870-cf0c-39c2" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="798a-2888-c1f2-61ca" name="Cavalry" hidden="false" targetId="5ebb-6a6b-0cd3-c2d0" primary="false"/>
+        <categoryLink id="f44e-4a56-7728-17ce" name="Fly" hidden="false" targetId="7718-b6f7-8dd2-fdf7" primary="false"/>
+        <categoryLink id="92b4-516f-478e-076b" name="Daemon" hidden="false" targetId="2446-6d4e-ae02-0b3d" primary="false"/>
+        <categoryLink id="2121-2b77-752e-d124" name="Tzaangor Enlightened" hidden="false" targetId="4079-8dc2-653e-fe91" primary="false"/>
+        <categoryLink id="39b9-daec-cfe7-fb31" name="Special" hidden="false" targetId="c1af-f843-ed56-b7ab" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e3ee-df70-0d08-0a59" name="Core Choice" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09e7-19ed-aa77-f3d8" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="dda5-b3e5-4641-803d" name="Melee weapon (Enlight)" hidden="false" collective="false" import="true" targetId="756d-2383-73e7-f5b6" type="selectionEntryGroup"/>
+        <entryLink id="62e8-1f19-fb08-82cc" name="Armoury" hidden="false" collective="false" import="true" targetId="696b-cbc0-b5bf-36c1" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="944c-28fe-e221-f5e4" name="Mutalith Vortex Whelp" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9530-d1b6-8b71-ba47" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b5f6-af30-f580-e9bc" name="FACTION: Chaos, Heretic Astartes, Tzeentch, Thousand Sons" hidden="false" targetId="e804-4107-1fc9-f984" primary="false"/>
+        <categoryLink id="9b49-d050-487e-46d0" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="83aa-2998-17a3-6a06" name="Beast" hidden="false" targetId="b435-4c25-7f13-9777" primary="false"/>
+        <categoryLink id="6a54-b552-d61e-8649" name="Special" hidden="false" targetId="c1af-f843-ed56-b7ab" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f57e-3630-a354-0efa" name="Scarab Occult Terminator" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="4c1a-2943-4d98-89ca" name="FACTION: Chaos, Heretic Astartes, Tzeentch, Thousand Sons" hidden="false" targetId="e804-4107-1fc9-f984" primary="false"/>
+        <categoryLink id="aa41-a790-2b1d-ba0e" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="0284-fa90-f970-b13d" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="81f3-fe8f-4009-2d46" name="Terminator" hidden="false" targetId="5ab2-3594-fad1-b8e7" primary="false"/>
+        <categoryLink id="ccb9-0280-b53c-02a4" name="Scarab Occult Terminator" hidden="false" targetId="6d5e-ce64-6041-dcb7" primary="false"/>
+        <categoryLink id="f49c-ff3e-9981-15c2" name="Special" hidden="false" targetId="c1af-f843-ed56-b7ab" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="22c8-b53c-e6d0-89f4" name="Terminator weapon" hidden="false" collective="false" import="true" targetId="c1fc-6497-f609-3d1f" type="selectionEntryGroup"/>
+        <entryLink id="dc63-a422-7c67-a1da" name="Armoury" hidden="false" collective="false" import="true" targetId="696b-cbc0-b5bf-36c1" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0318-cab1-6e33-5685" name="Philosophy" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf52-e0c4-13d3-0df1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="fcf7-8f2f-7c08-0c2e" name="Configuration" hidden="false" targetId="2730-666a-ddd8-5e38" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ccff-48c9-1419-ef92" name="Philosophies" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a2b-775c-d923-2d67" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d1-f272-fee3-e540" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="afd2-0281-342c-6323" name="Just as Planned" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="e863-d2d5-6daf-2946" name="Just as Planned" hidden="false">
+                  <description>You may never use a Tactical Re-Roll. Gives 1 CP.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ca5c-0dc3-6b6b-8b25" name="Core Philosophies" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="ed21-b3a4-b442-208e" name="Core Philosophies" hidden="false" collective="false" import="true" targetId="815c-a547-69bc-820f" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3cfc-cdd5-2586-7f72" name="For the Crimson King!" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="57fd-b95b-9c2b-8f33" name="For the Crimson King!" hidden="false">
+                  <description>You may not use theTactical Actions from the Heralds of Ruin rulebook. Gives 2 CP</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f5e2-d79a-d2fe-0539" name="All is Dust" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="922e-e798-d952-609d" name="All is Dust" hidden="false">
+                  <description>Your team contains no models with the TZAANGOR or CHAOS CULTIST keywords. Gives 1 CP.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="de44-0496-fba5-6dfd" name="The Changer’s Hordes" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="3f56-f35e-d8a0-5e1a" name="The Changer’s Hordes" hidden="false">
+                  <description>Your team contains no m dels with a Save characteristic better than 4+. Gives 1 CP.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6faa-48ca-ae6f-7ccd" name="Timeslip" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="0d69-7b44-d661-8bb4" name="Timeslip" hidden="false">
+                  <description>One use per game. Use at any time to re-roll any single die that has already been re-rolled by either player. Costs 2 CP.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a387-adc0-14f2-3a64" name="The Galaxy Burns" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="34be-84b5-c571-d7ce" name="The Galaxy Burns" hidden="false">
+                  <description>Use at the beginning of any Fight Phase. All friendlyThousand Sons units gain +1 Attack until the end of the phase. Costs 2 CP.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="827d-f18a-5a45-3385" name="[Reference] Strategems" hidden="false" collective="false" import="true" targetId="e871-cb8f-9e55-e9d4" type="selectionEntry">
+      <rules>
+        <rule id="c2f4-eece-401f-6c63" name="The Architect’sFavour (1 CP)" hidden="false">
+          <description>Use at the end of a Fight phase in which your Team Leader killed an enemy character and/or at least 3 enemy models. Roll on the Boon of Tzeentch table (pg 97) but reroll any instances of Spawndom or Daemonhood. The effects last unl the end of the game.</description>
+        </rule>
+        <rule id="45a2-954a-3099-fd2c" name="Suggeson (1 CP)" hidden="false">
+          <description>Use when a friendly model becomes the target of a charge. That model may not fire Overwatch. Choose a single enemy model that is making a charge and roll a D6. On a 5+, that model may not charge.</description>
+        </rule>
+        <rule id="eb6c-6200-34c9-d729" name="Translocate (2 CP)" hidden="false">
+          <description>Use during your movement phase. Choose an Objective marker that has a friendly model, and no enemy models, within 3” of it. Remove and replace that Objecve up to 2D6” away from its current posion. It may not leave the battlefield in this way, but it does not count as moving.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="c69c-75a5-2a7c-f191" name="New CategoryLink" hidden="false" targetId="2730-666a-ddd8-5e38" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="512b-d44a-e012-5813" name="Chaos Cultist" hidden="false" collective="false" import="true" targetId="7e95-8171-1a9b-8b16" type="selectionEntry"/>
+    <entryLink id="6fbe-e449-415e-107a" name="Chaos Spawn" hidden="false" collective="false" import="true" targetId="3a8e-6036-8358-aeb1" type="selectionEntry"/>
+    <entryLink id="8dc9-3644-b63f-7b29" name="Cultist Champion" hidden="false" collective="false" import="true" targetId="4805-dc5a-e920-3864" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="5ba4-3da0-3607-41c3" name="Armoury" hidden="false" collective="false" import="true" targetId="696b-cbc0-b5bf-36c1" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="3c5b-44eb-5c34-4db0" name="Scarab Occult Terminator" hidden="false" collective="false" import="true" targetId="f57e-3630-a354-0efa" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="22fc-4d9f-dc4f-c8c8" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="remove" field="category" value="c1af-f843-ed56-b7ab"/>
+            <modifier type="add" field="category" value="4f8c-447f-b2e9-6dbb"/>
+            <modifier type="set-primary" field="category" value="4f8c-447f-b2e9-6dbb"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink id="de7f-30b9-a1a0-ee1d" name="Tzaangor Enlightened" hidden="false" collective="false" import="true" targetId="bb1b-059a-d34a-97d3" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5bf8-8f77-111d-8f2b" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="remove" field="category" value="c1af-f843-ed56-b7ab"/>
+            <modifier type="add" field="category" value="4f8c-447f-b2e9-6dbb"/>
+            <modifier type="set-primary" field="category" value="4f8c-447f-b2e9-6dbb"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="4cf9-093d-1406-aa46" name="Pistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="0dc2-6d15-dfaf-b61a">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3da-e1a6-d12d-ef33" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90a0-7a9a-9871-313e" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="efc2-be81-71f7-5127" name="Warpflame pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0dc2-6d15-dfaf-b61a" name="Inferno bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="667f-2bbb-8a97-de99" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="8797-d4fb-89cf-3474" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="87bb-c80a-f0f3-2912" name="Force weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8dba-ebd5-effb-338f">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a2a-d058-b74c-1e04" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e182-652f-8e77-a2c2" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="3df9-9854-f672-e16a" name="Force axe" hidden="false" collective="false" import="true" targetId="a836-1d04-599c-0b65" type="selectionEntry"/>
+        <entryLink id="8dba-ebd5-effb-338f" name="Force stave" hidden="false" collective="false" import="true" targetId="4193-4169-836b-40e6" type="selectionEntry"/>
+        <entryLink id="9741-0be8-6f74-b3f2" name="Force sword" hidden="false" collective="false" import="true" targetId="de0e-a65b-fba2-4f24" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="696b-cbc0-b5bf-36c1" name="Armoury" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3d30-0478-fe5c-9db8" name="Leader items" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7509-dc8e-1dec-f3a5" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="4826-bcb0-9883-8555" name="The Dustbound Helm" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe13-ba94-c882-24b4" type="notInstanceOf"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="df0a-385c-f6a0-9b11" type="notInstanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a391-c5df-f865-81f3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8fc-6beb-256b-6c62" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3d54-3fe4-584b-231f" name="The Dagger of Reflections" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f89d-fd04-c82e-5077" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="701e-c44b-17cb-7a03" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="93a9-d2c4-0227-866b" name="Pinion of the Primarch" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f4a9-4f4b-e31e-84a6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0be-30c7-2e09-d8a3" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="18.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1acd-d558-2925-d6d3" name="Icon of the Inferno" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5688-e161-aeeb-9d9a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc66-dfb3-b1d2-13c5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c6b2-b101-a477-64d9" name="Flux-Cairn" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ba8e-3e87-edda-6266" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="60ff-5316-fc72-df81" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a77-9818-671e-3da2" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="002b-82f1-1c91-73d7" name="Armour upgrades" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="9707-5f92-8d0b-0178" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7509-dc8e-1dec-f3a5" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9707-5f92-8d0b-0178" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fb12-0466-4b32-9fd1" name="Ectoplasmic Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9de6-88bf-873b-fa52" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d67c-f4d7-062f-932e" name="Spiky Bits" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a0d-5859-c6b5-2680" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="61a6-80ba-fe05-beb7" name="Oculi Maledictum" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c96b-9139-4298-d765" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5681-742e-5b92-93b0" name="Haunted Adamantium" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd4f-46d3-52a8-93cb" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="49d4-1c9e-e1c4-380c" name="Teleporter" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ab2-3594-fad1-b8e7" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18e4-f273-7220-b1b4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8c6e-1ce8-312b-8c9f" name="Ouroboros" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3554-b8b0-7a92-6304" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="bcf6-6daa-c4f6-25ca" name="Additional Wargear" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="bfc6-da8d-fb0e-1aad" name="Futuresight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da3b-e0cc-a279-4946" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1f4f-c1e5-b357-6730" name="Covenant of Change" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7509-dc8e-1dec-f3a5" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e70c-d834-65b3-fadb" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="162a-6350-d056-3c33" name="Targeter" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88bb-5e00-10b1-7f37" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5dfb-0e38-76ab-03cc" name="Augurscope" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7d4-c50e-d80f-6901" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fa57-1087-8568-b536" name="Ensorcelled weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7509-dc8e-1dec-f3a5" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0b0-46b8-e20b-6201" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="835b-598c-51a0-3678" name="Armorium Scarab" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef5c-50bc-d837-7540" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="12c9-f194-7f6a-4a23" name="Predestination" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58d4-7a1e-05f0-4697" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f39e-0a4a-de92-cdb7" name="unlimited wargear" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="9f38-b9a6-d54e-d0ff" name="Hypercharger" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="7.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f3af-2a58-e197-82d4" name="Censer-Grenade" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3774-dd04-6f69-03b3" name="The Awakening" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6d5e-ce64-6041-dcb7" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="9.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1c71-a39a-371c-d4b5" name="Familiars" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="a414-e702-07cb-9cc5" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7509-dc8e-1dec-f3a5" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a414-e702-07cb-9cc5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7593-9f05-5fcb-adbf" name="Reloader Familiar" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e90c-1ec2-5e6c-5fba" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ff41-71ef-fe03-d3d4" name="Linkdevil Familiar" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b87-442d-b61e-56b4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1d81-0a97-02c2-2f48" name="Combat Familiar" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c93e-fcee-daac-486a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="76d1-dbff-c1d0-85fe" name="Spell Familiar" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2cdc-43a0-142d-2065" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="782c-3b73-137a-8424" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="923e-cfb6-8545-cf60" name="Regeneration Familiar" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7509-dc8e-1dec-f3a5" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6e7-4358-0db6-7989" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1938-e9ee-c2ef-879d" name="Melee weapon (Tzaangor)" hidden="false" collective="false" import="true" defaultSelectionEntryId="c98a-53f3-c20f-e1d8">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b89-1d71-c37c-88be" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b20e-f845-ce85-ab37" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="1a52-4635-c031-74cd" name="Chainsword and autopistol" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="5bde-eab0-1cb4-d503" name="Chainsword" hidden="false" targetId="60e9-0a02-0563-b075" type="profile"/>
+            <infoLink id="2ec2-1d1e-6286-4416" name="Laspistol" hidden="false" targetId="f2c6-4fc3-84af-768d" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="79d7-74a7-04be-575b" name="Two chainswords" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7930-3dd8-7ace-b8a8" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink id="00cd-a969-2960-ec09" name="Chainsword" hidden="false" targetId="60e9-0a02-0563-b075" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c98a-53f3-c20f-e1d8" name="Tzaangor blades" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="04b3-912e-24f8-9512" name="Psychic Discplines" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3dd6-5424-4171-1901" name="Discipline of Change" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="0e8e-0aa8-199e-3041" name="2. Boon of Mutation" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b53e-4856-0452-c799" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ecbd-e317-dd73-86e4" name="3. Glamour of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7840-bc3e-20c3-430c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8cf7-654d-0668-d2a1" name="4. Doombolt" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e339-ebad-0fd6-11ae" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0e44-6084-b634-bf8f" name="5. Temporal Manipulation" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a7e-f1de-4197-319a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a992-3ad2-1298-95e0" name="6. Weaver of Fates" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b0f-0100-69ff-8138" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0d85-70da-db55-8fdc" name="Dark Hereticus" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="045a-e128-7d58-a4da" name="1. Infernal Gaze" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a62-9265-5e9f-9145" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f0a8-9213-694c-c034" name="2. Death Hex" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9209-468a-9a7f-4d40" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="278f-ec24-e773-8618" name="4. Prescience" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb2f-e18e-dad3-1d21" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9154-db11-fddb-bdca" name="5. Diabolic Strength" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b8e-bdac-db7f-36bf" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6b55-01fd-47e1-c05c" name="6. Warptime" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49cd-4460-26f4-780f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="19d1-5352-2add-8cee" name="Ranged weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6c9e-88d3-a3cd-3de0">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a232-f933-1f7f-27e6" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e41-9041-fa73-6262" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="6c9e-88d3-a3cd-3de0" name="Inferno boltgun" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2536-8c5d-776a-ae11" name="Warpflamer" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="dca2-c268-7b05-001f" name="Soulreaper cannon" hidden="false" collective="false" import="true" targetId="9e70-c58e-7639-0b86" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="7e32-5cd0-d4a0-a7a9" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="720b-236c-0a6c-1b11" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e32-5cd0-d4a0-a7a9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="756d-2383-73e7-f5b6" name="Melee weapon (Enlight)" hidden="false" collective="false" import="true" defaultSelectionEntryId="f7a0-0b85-e50b-4cd5">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="426b-df1d-b2e2-cbd0" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbf1-56c6-1a6b-c2c1" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f7a0-0b85-e50b-4cd5" name="Divining spear" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2ce7-221b-5933-c6e5" name="Fatecaster greatbow" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7bc1-c050-0c2f-c4d4" name="Chainsword and autopistol" hidden="false" collective="false" import="true" targetId="1a52-4635-c031-74cd" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c1fc-6497-f609-3d1f" name="Terminator weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d0a8-5ed5-7e1b-05cb">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe9a-49a8-88f6-980a" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cbc-3ceb-2e50-6dff" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="91a5-52f5-3eab-eb56" name="Special weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="bca6-d934-eb81-2a0e" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6d5e-ce64-6041-dcb7" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bca6-d934-eb81-2a0e" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1754-24d7-08cb-9eeb" name="Special weapons list" hidden="false" collective="false" import="true" defaultSelectionEntryId="b816-9bd5-a8f8-330f">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2a6-5412-0c2c-75c3" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad9b-0551-1c00-009f" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="9e70-c58e-7639-0b86" name="Soulreaper cannon" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9056-b0f1-2593-1961" name="Helfyre missile rack" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="15.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b816-9bd5-a8f8-330f" name="Heavy warpflamer" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="15.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d0a8-5ed5-7e1b-05cb" name="Inferno combi-bolter" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5a12-15d6-6f56-4d29" name="Shamanic abilities" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="e09b-0482-22d9-c38d" name="Fate Rider" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7548-4575-9a0b-47ba" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a51d-1e47-b12f-8786" name="1. Savage Prophet" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6b9-9fd7-f2f5-10f2" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3bdc-6daa-3d7a-3cd8" name="2. Preternatural Prophet" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70e7-52d2-8c1c-0dd3" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1d0c-7e6e-1695-794b" name="3. Alchemist" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3744-f657-50fd-52cd" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="25b5-dc70-1669-0481" name="4. Gyre-tamer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dfe-291c-122b-860a" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c753-e9b4-cd77-aac6" name="5. Mutating Strike" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43dd-9426-c80d-204c" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="9.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d12a-ef44-864c-2fa0" name="6. Silent Skyhunter" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7cd-321a-013e-8023" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="9c47-9e57-373f-172c" name="Smite (TS)" hidden="false" typeId="9297-e470-4017-6da9" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Warp Charge" typeId="bcfb-ef87-3f34-2c32">5</characteristic>
+        <characteristic name="Range" typeId="d46d-df5c-ec04-f5ba">18&quot;</characteristic>
+        <characteristic name="Description" typeId="6de0-a0ff-a08e-290b">This models Smite does 1 mortal wound on a 5+ and D3 on a 10+.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="7d86-24a9-3878-a7df" name="Library" targetId="578d-0bea-7a69-2be0" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="cb6d-5aea-846f-6220" name="Chaos Library" targetId="2cf8-1477-0508-7b2f" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

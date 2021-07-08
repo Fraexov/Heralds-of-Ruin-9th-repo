@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="7847-ebae-4668-db3b" name="Rak&apos;gol" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0634-a3c9-023f-e93a" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="1de1-ceb9-8111-544b" name="Marauders" hidden="false"/>
+    <categoryEntry id="406c-08de-1cfd-8e0f" name="FACTION: Rak&apos;gol, &lt;Brood&gt;" hidden="false"/>
+    <categoryEntry id="17db-5987-20a1-d439" name="Murderers" hidden="false"/>
+    <categoryEntry id="d689-22cd-954b-6744" name="Renders" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="d350-6971-3d82-ee1a" name="Skirmish Team" hidden="false">
+      <categoryLinks>
+        <categoryLink id="8710-e361-59b2-3056" name="Configuration" hidden="false" targetId="2730-666a-ddd8-5e38" primary="false"/>
+        <categoryLink id="0c6d-634b-582b-510e" name="Team Leader" publicationId="26e0-4e27-2727-0652" hidden="false" targetId="7509-dc8e-1dec-f3a5" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4628-5439-c6a5-bf1d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c8c-0200-3b5d-cbc1" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="40b3-bf79-8d56-e645" name="Core" publicationId="26e0-4e27-2727-0652" hidden="false" targetId="4f8c-447f-b2e9-6dbb" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7111-51d0-1013-b670" type="min"/>
+            <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d4ee-13fa-330d-0444" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="6720-6fdb-b644-6048" name="Special" publicationId="26e0-4e27-2727-0652" hidden="false" targetId="c1af-f843-ed56-b7ab" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="413e-b585-ed8b-c91b" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="8783-2ded-206d-7b68" name="[Reference] Inspiring Presence" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="d725-8af8-8bed-3e30" name="Configuration" hidden="false" targetId="2730-666a-ddd8-5e38" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ea89-3431-f414-5250" name="Inspiring Presence" hidden="false" collective="false" import="true" targetId="e628-d7c6-5c61-1fd2" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="9d69-0886-5eb2-12c8" name="Path of Invasion" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e42-038b-f347-215a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="481c-6267-fbe6-942f" name="Path of Invasion" hidden="false" typeId="df0d-f045-ea6e-da66" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="6aab-4ccf-691a-90ee">Once per turn, after rolling the die to determine the Advance distance of an inspired model, you can change the result of that die to 6.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="623a-1bbf-3f55-55e3" name="[Reference] Secondary missions" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="9814-c75c-eeed-a087" name="Configuration" hidden="false" targetId="2730-666a-ddd8-5e38" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7424-a7aa-eb0d-2531" name="Secondary missions" hidden="false" collective="false" import="true" targetId="86ea-12d2-0ebd-186d" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="fe64-e766-3407-21c5" name="A Bountiful Harvest" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9761-4889-e66d-b435" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4617-a688-2524-998f" name="A Bountiful Harvest" hidden="false" typeId="df0d-f045-ea6e-da66" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="6aab-4ccf-691a-90ee">At the end of the turn, score a number of VP equal to half of the first digit of the points cost of the most expensive enemy model that was destroyed in the Fight phase of that turn, rounded up (if the model cost 100 points or more, always score 5 VP).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="30a3-b4b7-9c4a-0011" name="Hyperaggression" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3237-b3f3-a599-6a8e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="cce3-8523-f198-e4c1" name="Hyperaggression" hidden="false" typeId="df0d-f045-ea6e-da66" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="6aab-4ccf-691a-90ee">Once per turn, when a friendly model completes a charge move within engagement range of more than one enemy model, you can score 1 VP, plus 1 additional VP for each of these models beyond the first.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="36ad-3e4a-d11c-6697" name="Tunnelling" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50c3-a48f-3f7c-8121" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b12c-52f3-2241-6ab4" name="Tunnelling" hidden="false" typeId="df0d-f045-ea6e-da66" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="6aab-4ccf-691a-90ee">Score 2 VP each time a friendly non-beast, non swarm unit completes the Tunnelling action: A unit can start this action when it arrives on the battlefield using the Rak’Gol Ambush special rule. The action is completed at the end of your next Command phase if the unit is within 6” of a battlefield edge.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a3fc-6e23-96db-80d4" name="Marauder Clutchmaster" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="65be-3370-8674-0387" name="Augmented" hidden="false" targetId="3ef2-c1f9-d19b-ea09" type="rule"/>
+        <infoLink id="b105-7261-888e-45f7" name="Hunting Frenzy" hidden="false" targetId="315f-067f-4930-0cc5" type="rule"/>
+        <infoLink id="5ab0-af2c-5215-b18a" name="Rak’gol Ambush" hidden="false" targetId="bb0c-54c9-85e2-3869" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2a71-3efa-6eb1-7309" name="FACTION: Rak&apos;gol, &lt;Brood&gt;" hidden="false" targetId="406c-08de-1cfd-8e0f" primary="false"/>
+        <categoryLink id="65e6-2b7b-2b7c-83b9" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="ae9f-3482-e47d-9f8e" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="14e1-71fa-7f21-7762" name="Character" hidden="false" targetId="e7ec-a4bf-d6fe-9121" primary="false"/>
+        <categoryLink id="b880-3c44-96b7-0223" name="Marauders" hidden="false" targetId="1de1-ceb9-8111-544b" primary="false"/>
+        <categoryLink id="eb8c-4f8d-b9b4-c05a" name="Leader" hidden="false" targetId="7509-dc8e-1dec-f3a5" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2f09-17f9-bfd0-7a0e" name="Armoury" hidden="false" collective="false" import="true" targetId="0bcd-f70c-6df2-02ce" type="selectionEntryGroup"/>
+        <entryLink id="55a7-31cf-892c-d4b1" name="Ranged weapon" hidden="false" collective="false" import="true" targetId="dd6f-ec72-6a6c-11a6" type="selectionEntryGroup"/>
+        <entryLink id="aa1a-b0a8-99b4-aa42" name="Melee weapon" hidden="false" collective="false" import="true" targetId="6763-1225-b1a8-10b4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f698-8ba4-4986-0f2a" name="Philosophy" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0754-f300-8dd7-c2b2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1be2-5957-92c2-5275" name="Configuration" hidden="false" targetId="2730-666a-ddd8-5e38" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b1ac-87a1-f1a2-6231" name="Philosophies" hidden="false" collective="false" import="true" defaultSelectionEntryId="89e7-2269-8816-eaa2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90cd-f3e0-d9b7-2aac" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="198d-cb77-5426-d6ba" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="89e7-2269-8816-eaa2" name="Core Philosophies" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c88c-281b-cc3d-e0d0" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="51bb-b4d7-da62-ce47" name="Core Philosophies" hidden="false" collective="false" import="true" targetId="815c-a547-69bc-820f" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="93e8-94e0-d7e1-e2ce" name="Terror Incognita" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7032-8f93-b804-67b9" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d08d-1494-399a-e694" name="Terror Incognita" hidden="false" typeId="df0d-f045-ea6e-da66" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="6aab-4ccf-691a-90ee">+3 CP if, before the beginning of the battle, you declare that you will not use any of the core stratagems presented in the Herald of Ruin rulebook and will only use Rak’Gol exclusive stratagems.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e031-ee2c-5708-f009" name="The Blooding" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09e0-e624-ba56-e8ef" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="eaa8-e7de-3152-58e2" name="The Blooding" hidden="false" typeId="df0d-f045-ea6e-da66" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="6aab-4ccf-691a-90ee">If you choose this philosophy, roll a die each time a friendly model is removed as a casualty. Add 2 to the result if it was a Youth model. On a 6+, gain 1 CP.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="86e0-bbbb-4619-3a20" name="Techno-Harvest" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0495-abc9-26ed-d205" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="24df-02c1-9253-55a0" name="Techno-Harvest" hidden="false" typeId="df0d-f045-ea6e-da66" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="6aab-4ccf-691a-90ee">If you choose this philosophy, before the beginning of the battle, declare a
+keyword other than a faction keyword or the Infantry keyword. The first time
+this battle that a friendly model destroys an enemy model with that keyword in
+the Fight phase, gain 3 CP.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6cbb-ecf7-dd28-867b" name="Bodies as Bait" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4414-2241-40ad-d9d6" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="f851-2065-97b8-5cde" name="Bodies as Bait" hidden="false" typeId="df0d-f045-ea6e-da66" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="6aab-4ccf-691a-90ee">If you choose this philosophy, gain 1 CP the first three time this battle that a friendly model that started the battle outside of the battlefield destroys an enemy model.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d10f-9c35-bf4d-d97d" name="Murderer Clutchmaster" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2faa-6ced-1244-663e" name="Augmented" hidden="false" targetId="3ef2-c1f9-d19b-ea09" type="rule"/>
+        <infoLink id="63d8-6937-c063-36cf" name="Hunting Frenzy" hidden="false" targetId="315f-067f-4930-0cc5" type="rule"/>
+        <infoLink id="7b95-128b-f3cb-6c1b" name="Rak’gol Ambush" hidden="false" targetId="bb0c-54c9-85e2-3869" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f39e-21fd-0ce0-4f95" name="FACTION: Rak&apos;gol, &lt;Brood&gt;" hidden="false" targetId="406c-08de-1cfd-8e0f" primary="false"/>
+        <categoryLink id="e9a9-3dd7-0e9a-ba79" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="ed1e-d8b6-348b-dbce" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="049f-6946-bb53-8433" name="Murderers" hidden="false" targetId="17db-5987-20a1-d439" primary="false"/>
+        <categoryLink id="f75e-d717-720d-ca7a" name="Character" hidden="false" targetId="e7ec-a4bf-d6fe-9121" primary="false"/>
+        <categoryLink id="62a0-7ecb-6f4b-11b5" name="Leader" hidden="false" targetId="7509-dc8e-1dec-f3a5" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a999-17ff-829c-9a10" name="Armoury" hidden="false" collective="false" import="true" targetId="0bcd-f70c-6df2-02ce" type="selectionEntryGroup"/>
+        <entryLink id="7bb2-a445-1c38-cf67" name="Large stubber" hidden="false" collective="false" import="true" targetId="3c7e-5a7b-601a-ebcc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca4d-1b59-08f6-cf48" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dd7-d080-8b72-b961" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="754a-fa83-7515-fd82" name="Melee weapon" hidden="false" collective="false" import="true" targetId="6763-1225-b1a8-10b4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ce2-8cc6-f628-a0ee" name="Stalker Clutchmaster" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c895-0047-31df-f767" name="Polinium injector" hidden="false" typeId="68de-0bad-fb9d-9387" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9e05-683b-553d-c9c2">Melee</characteristic>
+            <characteristic name="Type" typeId="c03c-513c-6d45-e561">Melee</characteristic>
+            <characteristic name="S" typeId="0f71-d8ca-ff82-afcc">3</characteristic>
+            <characteristic name="AP" typeId="8750-5bb4-7d13-f06e">0</characteristic>
+            <characteristic name="D" typeId="7213-88a3-a334-4cdc">1</characteristic>
+            <characteristic name="Abilities" typeId="305e-958a-960b-efc4">After the bearer has attacked with its other weapons, it makes a single attack using this weapon. Each time you make a wound roll of 6+ when attacking with this weapon, the target suffers D3 mortal wounds in addition to any other damage.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="aa15-0053-87cd-aefa" name="Augmented" hidden="false" targetId="3ef2-c1f9-d19b-ea09" type="rule"/>
+        <infoLink id="4764-b549-1e4f-2d89" name="Hunting Frenzy" hidden="false" targetId="315f-067f-4930-0cc5" type="rule"/>
+        <infoLink id="6f99-0420-9103-eb8c" name="Rak’gol Ambush" hidden="false" targetId="bb0c-54c9-85e2-3869" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8692-06aa-6a02-5702" name="FACTION: Rak&apos;gol, &lt;Brood&gt;" hidden="false" targetId="406c-08de-1cfd-8e0f" primary="false"/>
+        <categoryLink id="d0d3-3e11-2dbb-a651" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="a46e-c70b-99ae-860c" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="41d1-70f5-0779-10fa" name="Character" hidden="false" targetId="e7ec-a4bf-d6fe-9121" primary="false"/>
+        <categoryLink id="484d-06fe-9ae7-1a12" name="Marauders" hidden="false" targetId="1de1-ceb9-8111-544b" primary="false"/>
+        <categoryLink id="7331-64da-6dbc-f2fb" name="Leader" hidden="false" targetId="7509-dc8e-1dec-f3a5" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9098-7700-bfd2-2822" name="Armoury" hidden="false" collective="false" import="true" targetId="0bcd-f70c-6df2-02ce" type="selectionEntryGroup"/>
+        <entryLink id="9073-1a2e-c2c1-33e6" name="Standard ranged weapons" hidden="false" collective="false" import="true" targetId="dd6f-ec72-6a6c-11a6" type="selectionEntryGroup"/>
+        <entryLink id="e470-8804-2d74-091c" name="Melee weapons" hidden="false" collective="false" import="true" targetId="db8b-00ac-e2a8-732a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0b96-c2b9-bc10-b964" name="Render Clutchmaster" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="69be-c5ae-94b8-d464" name="Hunting Frenzy" hidden="false" targetId="315f-067f-4930-0cc5" type="rule"/>
+        <infoLink id="e6fc-cc77-e5eb-80a1" name="Rak’gol Ambush" hidden="false" targetId="bb0c-54c9-85e2-3869" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5fb5-86d7-8091-0a3b" name="FACTION: Rak&apos;gol, &lt;Brood&gt;" hidden="false" targetId="406c-08de-1cfd-8e0f" primary="false"/>
+        <categoryLink id="89fa-509b-250e-b4ef" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="95ff-1d0d-23f5-aa75" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="4314-ea00-e3cf-a62e" name="Renders" hidden="false" targetId="d689-22cd-954b-6744" primary="false"/>
+        <categoryLink id="1e38-214a-bde6-97a8" name="Character" hidden="false" targetId="e7ec-a4bf-d6fe-9121" primary="false"/>
+        <categoryLink id="c587-604e-d512-fcf3" name="Leader" hidden="false" targetId="7509-dc8e-1dec-f3a5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2efa-1c33-b71d-6d50" name="Melee weapon list" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="16c5-0f29-ddb6-d874" name="Chainfist" hidden="false" collective="false" import="true" targetId="663a-6ca3-2a87-df07" type="selectionEntry"/>
+            <entryLink id="99c8-c4df-7464-94b3" name="Power axe" hidden="false" collective="false" import="true" targetId="23ef-9ca3-8c08-0c16" type="selectionEntry"/>
+            <entryLink id="d668-9176-6444-95b2" name="Power lance" hidden="false" collective="false" import="true" targetId="bcef-ad0b-a5b0-0ea1" type="selectionEntry"/>
+            <entryLink id="9102-73ca-ee94-8db4" name="Rad axe" hidden="false" collective="false" import="true" targetId="dbda-4a78-eaa3-974c" type="selectionEntry"/>
+            <entryLink id="abba-116a-14ff-8d5b" name="Rak&apos;gol Chainaxe" hidden="false" collective="false" import="true" targetId="cf80-c538-6d85-e8b7" type="selectionEntry"/>
+            <entryLink id="7072-b517-b237-bdbe" name="Rak&apos;gol chainglaive" hidden="false" collective="false" import="true" targetId="6d11-c2da-5a51-5cd4" type="selectionEntry"/>
+            <entryLink id="b24a-7d33-b0de-f1e3" name="Uranic claw" hidden="false" collective="false" import="true" targetId="0607-a9ad-a523-216d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e133-19f5-923d-a3d8" name="Melee weapon" hidden="false" collective="false" import="true" targetId="6763-1225-b1a8-10b4" type="selectionEntryGroup"/>
+        <entryLink id="2273-7dac-9873-8bd3" name="Armoury" hidden="false" collective="false" import="true" targetId="0bcd-f70c-6df2-02ce" type="selectionEntryGroup"/>
+        <entryLink id="9e5c-797e-84aa-1669" name="Pistol weapon" hidden="false" collective="false" import="true" targetId="8c1b-7b36-a2b8-07c3" type="selectionEntryGroup"/>
+        <entryLink id="c7a3-206f-21ca-3d15" name="Second Pistol weapon" hidden="false" collective="false" import="true" targetId="16b0-71d7-b20f-f6df" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d3ae-814b-3224-a45b" name="Broodmaster" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="661c-c412-f73c-59cf" name="Hunting Frenzy" hidden="false" targetId="315f-067f-4930-0cc5" type="rule"/>
+        <infoLink id="ce4f-5a07-8a30-f9ba" name="Rak’gol Ambush" hidden="false" targetId="bb0c-54c9-85e2-3869" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3c4f-7a0d-4606-37da" name="FACTION: Rak&apos;gol, &lt;Brood&gt;" hidden="false" targetId="406c-08de-1cfd-8e0f" primary="false"/>
+        <categoryLink id="5295-65bc-0c15-8b7e" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="c1f5-17b2-75be-569d" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="26b5-e0ee-b7f6-25f9" name="Character" hidden="false" targetId="e7ec-a4bf-d6fe-9121" primary="false"/>
+        <categoryLink id="e61b-cbfa-1024-341c" name="Leader" hidden="false" targetId="7509-dc8e-1dec-f3a5" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="791e-7215-d2ec-2080" name="Armoury" hidden="false" collective="false" import="true" targetId="0bcd-f70c-6df2-02ce" type="selectionEntryGroup"/>
+        <entryLink id="89f4-ae80-ca30-edfe" name="Melee weapons list" hidden="false" collective="false" import="true" targetId="db8b-00ac-e2a8-732a" type="selectionEntryGroup"/>
+        <entryLink id="63f6-04d3-e92f-c0ba" name="Standard ranged weapons" hidden="false" collective="false" import="true" targetId="dd6f-ec72-6a6c-11a6" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="ac34-3e32-ec33-fbb4" name="Heavy weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="8339-db64-127a-431d" name="Heavy weapons list" hidden="false" collective="false" import="true" targetId="668e-5a06-d913-8c4e" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink id="c406-0a4a-452f-26c8" name="Pistol weapon" hidden="false" collective="false" import="true" targetId="8c1b-7b36-a2b8-07c3" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="e368-b735-2d48-b425" name="Special weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="1f5a-3dde-add3-94e1" name="Special weapons list" hidden="false" collective="false" import="true" targetId="c725-291d-eb31-b51e" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="702d-e64c-5a87-8faa" name="Marauder" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4351-6626-c79e-c6f5" name="Augmented" hidden="false" targetId="3ef2-c1f9-d19b-ea09" type="rule"/>
+        <infoLink id="d13a-7d2a-9626-7057" name="Hunting Frenzy" hidden="false" targetId="315f-067f-4930-0cc5" type="rule"/>
+        <infoLink id="9a65-6469-313f-350c" name="Rak’gol Ambush" hidden="false" targetId="bb0c-54c9-85e2-3869" type="rule"/>
+        <infoLink id="7e9d-7806-6335-0e3a" name="Rak&apos;Gol blades" hidden="false" targetId="92c1-5ec2-a32b-b69d" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b9d4-c9a3-de29-6aaa" name="FACTION: Rak&apos;gol, &lt;Brood&gt;" hidden="false" targetId="406c-08de-1cfd-8e0f" primary="false"/>
+        <categoryLink id="f48c-ed7d-fa50-e96a" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="2307-e59e-c3fa-2384" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="a675-8da4-8b04-04e3" name="Marauders" hidden="false" targetId="1de1-ceb9-8111-544b" primary="false"/>
+        <categoryLink id="06ad-0505-4110-c68d" name="Core" hidden="false" targetId="4f8c-447f-b2e9-6dbb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d0ca-2a3b-5580-3a2d" name="Armoury" hidden="false" collective="false" import="true" targetId="0bcd-f70c-6df2-02ce" type="selectionEntryGroup"/>
+        <entryLink id="5a9f-b8b4-0961-9334" name="Standard ranged weapons" hidden="false" collective="false" import="true" targetId="dd6f-ec72-6a6c-11a6" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="4783-0c8e-579d-f7cb" name="Special weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="7a6f-2f20-d554-2be1" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1de1-ceb9-8111-544b" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7a6f-2f20-d554-2be1" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ac8a-f80f-fbb0-5218" name="Special weapons list" hidden="false" collective="false" import="true" targetId="c725-291d-eb31-b51e" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a92a-2d5e-a4de-67e5" name="Heavy weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="bb03-77a8-b3c9-cdcb" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1de1-ceb9-8111-544b" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb03-77a8-b3c9-cdcb" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="7050-b7db-14b4-e1ed" name="Heavy weapons list" hidden="false" collective="false" import="true" targetId="668e-5a06-d913-8c4e" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b9b1-97a7-2548-3b98" name="Youth" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9ab9-6d48-3959-06b3" name="Hunting Frenzy" hidden="false" targetId="315f-067f-4930-0cc5" type="rule"/>
+        <infoLink id="2daa-4fec-0e3e-4e2a" name="Rak’gol Ambush" hidden="false" targetId="bb0c-54c9-85e2-3869" type="rule"/>
+        <infoLink id="14a8-f93a-4bba-e67f" name="Rak&apos;Gol blades" hidden="false" targetId="92c1-5ec2-a32b-b69d" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ff38-0dab-dfe7-406c" name="FACTION: Rak&apos;gol, &lt;Brood&gt;" hidden="false" targetId="406c-08de-1cfd-8e0f" primary="false"/>
+        <categoryLink id="ce1b-f995-97ff-9819" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="1a75-9bf9-d974-8911" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="9061-1ecd-bec0-ef4f" name="Core" hidden="false" targetId="4f8c-447f-b2e9-6dbb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2ea8-b1a0-6fdd-3887" name="Ranged weapon" hidden="false" collective="false" import="true" targetId="dd6f-ec72-6a6c-11a6" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0810-4523-2cb4-d224" name="Carver" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="95f0-17c6-d549-a201" name="Hunting Frenzy" hidden="false" targetId="315f-067f-4930-0cc5" type="rule"/>
+        <infoLink id="5ae2-b15e-1294-3181" name="Rak’gol Ambush" hidden="false" targetId="bb0c-54c9-85e2-3869" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f5ac-838a-9a42-be5d" name="FACTION: Rak&apos;gol, &lt;Brood&gt;" hidden="false" targetId="406c-08de-1cfd-8e0f" primary="false"/>
+        <categoryLink id="04f1-2e81-1d2c-329f" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="2375-cba8-d587-632d" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="b89f-fa6c-31c1-4ddb" name="Core" hidden="false" targetId="4f8c-447f-b2e9-6dbb" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3b7b-2d27-37b1-7b94" name="Standard ranged weapons" hidden="false" collective="false" import="true" targetId="dd6f-ec72-6a6c-11a6" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="bef1-80b3-67ad-4bb7" name="Special weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="04da-e3be-822f-3b10" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0810-4523-2cb4-d224" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="04da-e3be-822f-3b10" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="2e8c-30fc-cf65-f6bf" name="Special weapons list" hidden="false" collective="false" import="true" targetId="c725-291d-eb31-b51e" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="17a2-75fb-86d5-84b2" name="Heavy weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="0ecb-69f7-5795-2459" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0810-4523-2cb4-d224" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ecb-69f7-5795-2459" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="1700-3041-57a5-e3ee" name="Heavy weapons list" hidden="false" collective="false" import="true" targetId="668e-5a06-d913-8c4e" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1bfc-3dfd-f7b5-4142" name="Murderer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3274-c026-5c1e-4fe2" name="Augmented" hidden="false" targetId="3ef2-c1f9-d19b-ea09" type="rule"/>
+        <infoLink id="1452-8e1e-81f5-31d6" name="Hunting Frenzy" hidden="false" targetId="315f-067f-4930-0cc5" type="rule"/>
+        <infoLink id="b97d-4abc-cdbf-0745" name="Rak’gol Ambush" hidden="false" targetId="bb0c-54c9-85e2-3869" type="rule"/>
+        <infoLink id="56e1-9eac-8734-3d35" name="Rak&apos;Gol blades" hidden="false" targetId="92c1-5ec2-a32b-b69d" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2d0f-d685-11a7-e054" name="FACTION: Rak&apos;gol, &lt;Brood&gt;" hidden="false" targetId="406c-08de-1cfd-8e0f" primary="false"/>
+        <categoryLink id="c4dc-2b54-ddbe-c97e" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="0749-3b59-553a-ec67" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="b7f8-bafa-641b-22bb" name="Murderers" hidden="false" targetId="17db-5987-20a1-d439" primary="false"/>
+        <categoryLink id="1ac1-ba95-ec54-7cb6" name="Special" hidden="false" targetId="c1af-f843-ed56-b7ab" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c636-e10c-508f-2d00" name="Ranged weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5177-c7d8-a8ab-4963">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6058-81fb-e377-bd4e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc2f-1765-1a69-c53e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="52b7-27ff-a1b9-49e3" name="Heavy weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="a28c-b7bc-b2ed-94dd" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="17db-5987-20a1-d439" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a28c-b7bc-b2ed-94dd" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="07d9-52af-6102-dcea" name="Heavy weapons list" hidden="false" collective="false" import="true" targetId="668e-5a06-d913-8c4e" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="5177-c7d8-a8ab-4963" name="Large stubber" hidden="false" collective="false" import="true" targetId="3c7e-5a7b-601a-ebcc" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f009-a372-f4bf-8005" name="Armoury" hidden="false" collective="false" import="true" targetId="0bcd-f70c-6df2-02ce" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="19.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0bf4-dfe5-7f85-51e0" name="Stalker" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fa0a-8e37-8fe0-7829" name="Rak’gol Ambush" hidden="false" targetId="bb0c-54c9-85e2-3869" type="rule"/>
+        <infoLink id="9979-7400-487a-5759" name="Hunting Frenzy" hidden="false" targetId="315f-067f-4930-0cc5" type="rule"/>
+        <infoLink id="a5a2-e267-794b-9efe" name="Augmented" hidden="false" targetId="3ef2-c1f9-d19b-ea09" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7de0-4861-fd43-d7af" name="FACTION: Rak&apos;gol, &lt;Brood&gt;" hidden="false" targetId="406c-08de-1cfd-8e0f" primary="false"/>
+        <categoryLink id="ff78-7bcf-7c32-7ca7" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="2fd9-c705-9cef-b711" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="b35e-fb85-66d8-5970" name="Special" hidden="false" targetId="c1af-f843-ed56-b7ab" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6d3b-6f30-9185-b684" name="Armoury" hidden="false" collective="false" import="true" targetId="0bcd-f70c-6df2-02ce" type="selectionEntryGroup"/>
+        <entryLink id="1067-3e5b-975a-9ef2" name="Ranged weapon" hidden="false" collective="false" import="true" targetId="dd6f-ec72-6a6c-11a6" type="selectionEntryGroup"/>
+        <entryLink id="32c1-7b97-c74b-e80c" name="Melee weapons" hidden="false" collective="false" import="true" targetId="db8b-00ac-e2a8-732a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c89a-19d8-bc8a-6aaa" name="Render" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d83e-4f3d-552b-f6f7" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ff38-c55d-5807-98ec" name="Rak’gol Ambush" hidden="false" targetId="bb0c-54c9-85e2-3869" type="rule"/>
+        <infoLink id="afd0-50fe-2c31-8454" name="Hunting Frenzy" hidden="false" targetId="315f-067f-4930-0cc5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cea0-fbdf-730e-5d7e" name="FACTION: Rak&apos;gol, &lt;Brood&gt;" hidden="false" targetId="406c-08de-1cfd-8e0f" primary="false"/>
+        <categoryLink id="a064-ead0-120a-35e5" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="9b7f-6049-9605-f0f1" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="26ad-c0d3-b8cf-a3a9" name="Renders" hidden="false" targetId="d689-22cd-954b-6744" primary="false"/>
+        <categoryLink id="17b8-98b8-e8dc-9e18" name="Special" hidden="false" targetId="c1af-f843-ed56-b7ab" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a80b-54ef-3991-1c16" name="Armoury" hidden="false" collective="false" import="true" targetId="0bcd-f70c-6df2-02ce" type="selectionEntryGroup"/>
+        <entryLink id="3ec3-6f96-71db-932d" name="Melee weapons list" hidden="false" collective="false" import="true" targetId="db8b-00ac-e2a8-732a" type="selectionEntryGroup"/>
+        <entryLink id="e5c7-3ae1-d8ca-5bfa" name="Pistol weapon" hidden="false" collective="false" import="true" targetId="8c1b-7b36-a2b8-07c3" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="01d1-abdb-056f-697d" name="Special weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4faa-8274-67c9-b378" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="2f2a-bc5b-61b8-c019" name="Special weapons list" hidden="false" collective="false" import="true" targetId="c725-291d-eb31-b51e" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink id="cbf7-967f-dcf0-d5f7" name="Second Pistol weapon" hidden="false" collective="false" import="true" targetId="16b0-71d7-b20f-f6df" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="34.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4300-e420-cb1e-dfd2" name="Techno-Shaman" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b3d5-7087-8114-a436" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="d0e7-8773-6a3c-fd92" name="Rak’gol Ambush" hidden="false" targetId="bb0c-54c9-85e2-3869" type="rule"/>
+        <infoLink id="b4a0-167c-2151-4859" name="Hunting Frenzy" hidden="false" targetId="315f-067f-4930-0cc5" type="rule"/>
+        <infoLink id="c33e-803a-13d3-27e7" name="Smite" hidden="false" targetId="1f2a-f6a9-1b37-2311" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7ec7-847b-0157-8891" name="FACTION: Rak&apos;gol, &lt;Brood&gt;" hidden="false" targetId="406c-08de-1cfd-8e0f" primary="false"/>
+        <categoryLink id="9eed-a84c-1a32-1a8f" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="e9dd-e4c4-af21-a120" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="5e5a-7ad3-8d52-38e3" name="Character" hidden="false" targetId="e7ec-a4bf-d6fe-9121" primary="false"/>
+        <categoryLink id="aea1-4da5-e2c9-eca2" name="Psyker" hidden="false" targetId="2cdc-43a0-142d-2065" primary="false"/>
+        <categoryLink id="0680-21ef-ebec-95bc" name="Special" hidden="false" targetId="c1af-f843-ed56-b7ab" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0c43-8ec4-ac35-5dea" name="Armoury" hidden="false" collective="false" import="true" targetId="0bcd-f70c-6df2-02ce" type="selectionEntryGroup"/>
+        <entryLink id="ed81-1318-f33b-c58f" name="Psychotech Discipline" hidden="false" collective="false" import="true" targetId="243f-5d60-0ab7-168d" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eac2-9a0b-cbff-0652" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fca7-46fe-d653-192e" name="Pistol weapon" hidden="false" collective="false" import="true" targetId="8c1b-7b36-a2b8-07c3" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="6ad7-e064-3e3f-d428" name="Integrator spike" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d139-3699-d6a9-299c" name="Technobomination" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fd9-23a7-157a-6050" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f640-1c14-6398-efe4" name="Rak’gol Ambush" hidden="false" targetId="bb0c-54c9-85e2-3869" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c769-821d-fa17-6d5f" name="FACTION: Rak&apos;gol, &lt;Brood&gt;" hidden="false" targetId="406c-08de-1cfd-8e0f" primary="false"/>
+        <categoryLink id="6290-3839-ce4a-7303" name="KEYWORDS: &lt;Unit Name&gt;," hidden="false" targetId="470d-139a-6f5d-6bfd" primary="false"/>
+        <categoryLink id="b97c-7cb4-27d8-16db" name="Infantry" hidden="false" targetId="be8c-b2f8-127c-ff06" primary="false"/>
+        <categoryLink id="c34c-20bc-31e0-154d" name="Special" hidden="false" targetId="c1af-f843-ed56-b7ab" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="70f2-f502-3f00-7f54" name="Ranged weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2c5d-1515-f9a8-285d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0594-b380-7f16-493e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad89-2fd4-5644-3f2d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="49a5-dc6f-8fce-437b" name="Heavy weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="aa64-bfe6-ae83-f104" name="Heavy weapons list" hidden="false" collective="false" import="true" targetId="668e-5a06-d913-8c4e" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="47b5-54d2-bfd1-5b5d" name="Special weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="3c14-8a1c-e710-4d49" name="Special weapons list" hidden="false" collective="false" import="true" targetId="c725-291d-eb31-b51e" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="2c5d-1515-f9a8-285d" name="Stubber" hidden="false" collective="false" import="true" targetId="9369-db16-47ad-eb4e" type="selectionEntry"/>
+            <entryLink id="0f4a-56e0-b271-7611" name="Large stubber" hidden="false" collective="false" import="true" targetId="3c7e-5a7b-601a-ebcc" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="40.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="edbc-48b7-e6f4-cef5" name="[Reference] Strategems" hidden="false" collective="false" import="true" targetId="e871-cb8f-9e55-e9d4" type="selectionEntry">
+      <rules>
+        <rule id="d8e8-540c-cc38-7716" name="Surging Assault (1 CP)" hidden="false">
+          <description>Use this stratagem before making a charge move with a friendly Rak’Gol Infantry model. Roll three dice and discard the lowest result when rolling to determine the charge distance.</description>
+        </rule>
+        <rule id="bbbb-2dfb-3ac9-3193" name="Death Frenzy (1 CP)" hidden="false">
+          <description>Use this stratagem when a friendly Rak’Gol Infantry model is destroyed. Do not remove that model from the battlefield immediately. After the enemy model has finished making all its attacks, you can move the friendly model up to 3” in any direction. If this brings the model within engagement range of an enemy model, it immediately fights as if it were the Fight phase. Then remove that model from the battlefield.</description>
+        </rule>
+        <rule id="4686-5e89-21cd-e634" name="Slugstorm (1 CP)" hidden="false">
+          <description>Use this stratagem before a friendly Rak’Gol model attacks with a Stub weapon in the Shooting phase. The model makes an additional D6 attacks with that weapon. (Stub weapons are Stubbers, Large Stubbers, Stub-Gatlers and Barbed Stubpistols).</description>
+        </rule>
+        <rule id="cbdb-848a-a24e-c10c" name="Ignore the Dead (2 CP)" hidden="false">
+          <description>Use this stratagem when taking a Nerve or Rout test. That test is automatically succesful.</description>
+        </rule>
+        <rule id="4121-965d-0bc9-fe5f" name="Psychotraume Interference (2 CP)" hidden="false">
+          <description>Use this stratagem at the beginning of the enemy Shooting phase. Pick an enemy model within 18” of a friendly Rak’Gol Psyker model. Until the end of that phase, hit rolls of a 6 made for that model and all models within 3” of it are treated as hit rolls of a 1 instead.</description>
+        </rule>
+        <rule id="950c-3ad8-425b-aa9c" name="Perfect Ambush (3 CP)" hidden="false">
+          <description>Use this stratagem before rolling on the Rak’Gol Ambush table. Pick the result on the table instead of rolling a die.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="eb62-2553-c479-4b34" name="New CategoryLink" hidden="false" targetId="2730-666a-ddd8-5e38" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="3c7e-5a7b-601a-ebcc" name="Large stubber" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c51e-e2e0-f19c-2999" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="db8b-00ac-e2a8-732a" name="Melee weapons list" hidden="false" collective="false" import="true" defaultSelectionEntryId="b819-d0e7-58c9-2e81">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="987c-bdab-ce52-58e6" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22c1-25c0-becf-b56d" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="dbda-4a78-eaa3-974c" name="Rad axe" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce69-0433-4dc8-7e1c" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cf80-c538-6d85-e8b7" name="Rak&apos;gol Chainaxe" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed72-c69e-a179-42a8" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6d11-c2da-5a51-5cd4" name="Rak&apos;gol chainglaive" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd82-1f0c-a25d-2ca5" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0607-a9ad-a523-216d" name="Uranic claw" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b403-5934-de9c-e33a" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bcef-ad0b-a5b0-0ea1" name="Power lance" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c6a-0da0-84ee-1fca" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="697b-6194-9926-2e0c" name="Power lance" hidden="false" typeId="68de-0bad-fb9d-9387" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="9e05-683b-553d-c9c2">Melee</characteristic>
+                <characteristic name="Type" typeId="c03c-513c-6d45-e561">Melee</characteristic>
+                <characteristic name="S" typeId="0f71-d8ca-ff82-afcc">+2</characteristic>
+                <characteristic name="AP" typeId="8750-5bb4-7d13-f06e">-1</characteristic>
+                <characteristic name="D" typeId="7213-88a3-a334-4cdc">1</characteristic>
+                <characteristic name="Abilities" typeId="305e-958a-960b-efc4">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="663a-6ca3-2a87-df07" name="Chainfist" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91e7-818b-9cc6-57dd" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c052-408c-fdf9-e922" name="Chainfist" hidden="false" typeId="68de-0bad-fb9d-9387" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="9e05-683b-553d-c9c2">Melee</characteristic>
+                <characteristic name="Type" typeId="c03c-513c-6d45-e561">Melee</characteristic>
+                <characteristic name="S" typeId="0f71-d8ca-ff82-afcc">x2</characteristic>
+                <characteristic name="AP" typeId="8750-5bb4-7d13-f06e">-4</characteristic>
+                <characteristic name="D" typeId="7213-88a3-a334-4cdc">2</characteristic>
+                <characteristic name="Abilities" typeId="305e-958a-960b-efc4">When resolving an attack made with this weapon, subtract 1 from the hit roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="23ef-9ca3-8c08-0c16" name="Power axe" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e76-ae65-600a-43fe" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2bdd-e0bc-e5fc-f482" name="Power axe" hidden="false" typeId="68de-0bad-fb9d-9387" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="9e05-683b-553d-c9c2">Melee</characteristic>
+                <characteristic name="Type" typeId="c03c-513c-6d45-e561">Melee</characteristic>
+                <characteristic name="S" typeId="0f71-d8ca-ff82-afcc">+1</characteristic>
+                <characteristic name="AP" typeId="8750-5bb4-7d13-f06e">-2</characteristic>
+                <characteristic name="D" typeId="7213-88a3-a334-4cdc">1</characteristic>
+                <characteristic name="Abilities" typeId="305e-958a-960b-efc4">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b819-d0e7-58c9-2e81" name="Rak&apos;Gol blades" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5452-6314-7023-980a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="92c1-5ec2-a32b-b69d" name="Rak&apos;Gol blades" hidden="false" typeId="68de-0bad-fb9d-9387" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="9e05-683b-553d-c9c2">Melee</characteristic>
+                <characteristic name="Type" typeId="c03c-513c-6d45-e561">Melee</characteristic>
+                <characteristic name="S" typeId="0f71-d8ca-ff82-afcc">User</characteristic>
+                <characteristic name="AP" typeId="8750-5bb4-7d13-f06e">0</characteristic>
+                <characteristic name="D" typeId="7213-88a3-a334-4cdc">1</characteristic>
+                <characteristic name="Abilities" typeId="305e-958a-960b-efc4">Re-roll failed wound rolls of 1 when attacking with this weapon.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6838-4327-02b4-a0a5" name="Intimidator" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7509-dc8e-1dec-f3a5" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e53e-ba48-6aed-4746" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c725-291d-eb31-b51e" name="Special weapons list" hidden="false" collective="false" import="true" defaultSelectionEntryId="bbf5-781f-e7e7-5f0e">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9a2-7144-3ad8-c837" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fc2-f22f-6672-61d2" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="bbf5-781f-e7e7-5f0e" name="Rad flamer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51ca-7646-5d9c-9fd4" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="86cc-fc7c-62e2-7fae" name="Rad-canister launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f265-5b4b-1bb8-c020" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f4a2-659c-411e-db54" name="Razor gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a18-a081-7c9c-c647" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="668e-5a06-d913-8c4e" name="Heavy weapons list" hidden="false" collective="false" import="true" defaultSelectionEntryId="73d3-84ba-21ac-af2e">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7999-8617-eb6b-b6d6" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06fa-8ea3-c12f-b342" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="2a23-52ab-b946-19f1" name="Plutonic detonator" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="862f-d6f8-9408-e459" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dd4e-5c89-40ae-228d" name="Howler rifle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa98-84c5-4d8a-0e6d" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="34c6-ac49-b6b6-03cd" name="Rad-beam cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a43a-5191-6288-1eac" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="73d3-84ba-21ac-af2e" name="Stub-gatler" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d33d-efd3-b284-913d" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="243f-5d60-0ab7-168d" name="Psychotech Discipline" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="93f6-35ce-041d-cac0" name="1. Telekinetic Sledge" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4624-6f98-e3b2-4999" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5fe7-e519-084b-a46b" name="1. Telekinetic Sledge" hidden="false" typeId="9297-e470-4017-6da9" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Warp Charge" typeId="bcfb-ef87-3f34-2c32">5</characteristic>
+                <characteristic name="Range" typeId="d46d-df5c-ec04-f5ba">12&quot;</characteristic>
+                <characteristic name="Description" typeId="6de0-a0ff-a08e-290b">If manifested, the closest enemy unit of the caster suffers a mortal wound. This power inflicts D3 mortal wounds instead if the target is within, or on top of, a piece of terrain.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e220-6f31-b021-c311" name="2. Blind Rage" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c98d-85ab-3e13-db05" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8422-35f4-6295-9a6a" name="2. Blind Rage" hidden="false" typeId="9297-e470-4017-6da9" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Warp Charge" typeId="bcfb-ef87-3f34-2c32">7</characteristic>
+                <characteristic name="Range" typeId="d46d-df5c-ec04-f5ba">18&quot;</characteristic>
+                <characteristic name="Description" typeId="6de0-a0ff-a08e-290b">If manifested, pick an enemy unit of the Psyker and not within engagement range of any friendly models. Your opponent must move that unit up to 2D6” so that each model in the unit ends its move as close as possible to the closest friendly model.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5573-29ae-aafb-3cca" name="3. Reweave" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9452-605a-d08e-fb2e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4f73-27bd-4a7e-b4c1" name="3. Reweave" hidden="false" typeId="9297-e470-4017-6da9" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Warp Charge" typeId="bcfb-ef87-3f34-2c32">7</characteristic>
+                <characteristic name="Range" typeId="d46d-df5c-ec04-f5ba">18&quot;</characteristic>
+                <characteristic name="Description" typeId="6de0-a0ff-a08e-290b">If manifested, pick a friendly &lt;Brood&gt; unit of the Psyker. Until your next Psychic phase, roll a die each time a model in that unit suffers a wound or mortal wound. On a 5+, the wound is not lost.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5507-df45-4b3b-0523" name="4. Flay Reality" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a90-b7d5-c859-d74d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0cb0-47b5-32c4-eb63" name="4. Flay Reality" hidden="false" typeId="9297-e470-4017-6da9" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Warp Charge" typeId="bcfb-ef87-3f34-2c32">6</characteristic>
+                <characteristic name="Range" typeId="d46d-df5c-ec04-f5ba">3&quot;</characteristic>
+                <characteristic name="Description" typeId="6de0-a0ff-a08e-290b">If manifested, until your next Psychic phase, each time your opponent makes a hit roll of a 1 for a unit within 3” of the Psyker, that unit suffers a mortal wound after all of its attacks have been resolved.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9130-f6e0-da7d-fd4d" name="5. Reap the Flesh" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac19-72ec-a93b-0994" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7214-0c57-9f49-cbba" name="5. Reap the Flesh" hidden="false" typeId="9297-e470-4017-6da9" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Warp Charge" typeId="bcfb-ef87-3f34-2c32">7</characteristic>
+                <characteristic name="Range" typeId="d46d-df5c-ec04-f5ba">6&quot;</characteristic>
+                <characteristic name="Description" typeId="6de0-a0ff-a08e-290b">If manifested, roll a die for each model within 6” of the Psyker. On a 5+, that model’s unit suffers a mortal wound.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="19f5-333c-1674-2c15" name="6. Seize the Machine" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1c1-9518-66f9-7808" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="551c-f0ef-13a7-9824" name="6. Seize the Machine" hidden="false" typeId="9297-e470-4017-6da9" typeName="Psychic Power">
+              <characteristics>
+                <characteristic name="Warp Charge" typeId="bcfb-ef87-3f34-2c32">6</characteristic>
+                <characteristic name="Range" typeId="d46d-df5c-ec04-f5ba">6&quot;</characteristic>
+                <characteristic name="Description" typeId="6de0-a0ff-a08e-290b">If manifested, pick a single friendly &lt;Brood&gt; model within 6” of the Psyker, then pick a weapon profile of an enemy model within 18” of the Psyker, except a Grenade weapon. The friendly model gains a copy of that weapon until the end of the battle. Each friendly model can benefit from this power only once per battle.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0bcd-f70c-6df2-02ce" name="Armoury" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="6dfb-df67-a276-381b" name="Superior bionics" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7509-dc8e-1dec-f3a5" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4127-f417-acd6-6c50" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4b0e-f975-de01-4a67" name="Greater salvaged weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7509-dc8e-1dec-f3a5" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14bb-9c84-6bf0-fdfc" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0454-44b6-6acb-634e" name="Resonator implants" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7509-dc8e-1dec-f3a5" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4729-dddb-9bb3-b887" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="85b5-a4a8-cb28-624e" name="Implements of Insanity" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00b0-5e59-5690-e663" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0963-5ed7-bdf9-9f5a" name="Implanted Vox" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3ae-814b-3224-a45b" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8231-2730-adc3-6861" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6696-9037-44b0-3885" name="Yu’Vath Crown" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4300-e420-cb1e-dfd2" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47ab-582b-f484-3595" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2cec-de58-2d40-edff" name="Jars of Psyker Brains" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4300-e420-cb1e-dfd2" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="427d-f563-1d1a-f0c6" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1aef-6c37-285c-681c" name="Bionic Eyes" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="17db-5987-20a1-d439" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efb3-b620-5569-d293" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d522-768d-4001-fca9" name="Mono-Blades" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d689-22cd-954b-6744" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27c4-bb66-97d8-a823" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5fc0-4824-2922-8eae" name="Rad Mine" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1570-b042-cd71-0cec" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ae37-f150-9fc5-8657" name="Rad-Implants" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b66e-a452-8c43-b966" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5372-fe7b-f257-9f7c" name="Slug Irradiator" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94b8-a785-e60e-4882" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="938a-984f-fc28-8022" name="Extra Barrels" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9129-9527-11ae-cdb6" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6763-1225-b1a8-10b4" name="Melee weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="afed-4dd6-9a37-b9df">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33cb-f422-cb6c-142b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29b2-db3e-0160-d8ee" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="afed-4dd6-9a37-b9df" name="Rak&apos;Gol blades" hidden="false" collective="false" import="true" targetId="b819-d0e7-58c9-2e81" type="selectionEntry"/>
+        <entryLink id="e834-fdde-d1c2-d646" name="Intimidator" hidden="false" collective="false" import="true" targetId="6838-4327-02b4-a0a5" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="dd6f-ec72-6a6c-11a6" name="Ranged weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="9369-db16-47ad-eb4e">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09d2-f17a-c66d-b33c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b38e-e187-6d01-ee09" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="9762-b989-b276-0e0e" name="Barbed stubpistol" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b359-3c29-c1b8-4d05" name="Razor pistol" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9369-db16-47ad-eb4e" name="Stubber" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="f8ff-4af4-742a-8e16" name="Stubber" hidden="false" typeId="68de-0bad-fb9d-9387" typeName="Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="9e05-683b-553d-c9c2">18&quot;</characteristic>
+                <characteristic name="Type" typeId="c03c-513c-6d45-e561">Assault 2</characteristic>
+                <characteristic name="S" typeId="0f71-d8ca-ff82-afcc">3</characteristic>
+                <characteristic name="AP" typeId="8750-5bb4-7d13-f06e">0</characteristic>
+                <characteristic name="D" typeId="7213-88a3-a334-4cdc">1</characteristic>
+                <characteristic name="Abilities" typeId="305e-958a-960b-efc4">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="4f6b-165a-fd00-7ee8" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8c1b-7b36-a2b8-07c3" name="Pistol weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7b8c-2f46-0e2a-eb15">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a03c-e1ba-34f1-b2fa" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64a2-6004-589c-553a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="7b8c-2f46-0e2a-eb15" name="Barbed stubpistol" hidden="false" collective="false" import="true" targetId="9762-b989-b276-0e0e" type="selectionEntry"/>
+        <entryLink id="4762-92c8-a78d-5e21" name="Razor pistol" hidden="false" collective="false" import="true" targetId="b359-3c29-c1b8-4d05" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="16b0-71d7-b20f-f6df" name="Second Pistol weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7162-8872-f012-2ee0">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6967-2882-2314-636d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ad-a7f8-054d-d968" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="7162-8872-f012-2ee0" name="Barbed stubpistol" hidden="false" collective="false" import="true" targetId="9762-b989-b276-0e0e" type="selectionEntry"/>
+        <entryLink id="5751-b427-ce71-b8fe" name="Razor pistol" hidden="false" collective="false" import="true" targetId="b359-3c29-c1b8-4d05" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="3ef2-c1f9-d19b-ea09" name="Augmented" hidden="false">
+      <description>This model has a 6+ invulnerable save.</description>
+    </rule>
+    <rule id="315f-067f-4930-0cc5" name="Hunting Frenzy" hidden="false">
+      <description>You can re-roll hit rolls of 1 in the Fight phase for models with this ability that charged in the same turn. If an ability or a weapon already allows the model to re-roll hit rolls of 1, you can re-roll all failed hit rolls instead.</description>
+    </rule>
+    <rule id="bb0c-54c9-85e2-3869" name="Rak’gol Ambush" hidden="false">
+      <description>During deployment, you can deploy this unit in ambush instead of placing it on the battlefield. At the end of any of your movement phases, the model can arrive from ambush. If you do, roll on the following table and apply the result.
+
+• 1: set up the unit anywhere on the battlefield that is within 6” of a table edge and more than 9” from enemy models. The unit can then make a normal move (it cannot Advance) but cannot charge in the following Charge phase.
+
+• 2-3: set up the unit anywhere on the battlefield that is within 6” of a table edge and more than 9” from enemy models. The unit can then make a normal move (it cannot Advance) but cannot charge in the following Charge phase. Until your next turn, substract 1 from the hit rolls for attacks made with ranged weapons that target the unit.
+
+• 4-5: set up the unit anywhere on the battlefield that is within 6” of a table edge and more than 9” from enemy models. The unit can then make a normal move (it cannot Advance) but cannot charge in the following Charge phase. Add 1 to the hit rolls made for the unit in the following Shooting phase.
+
+• 6: set up the unit anywhere on the battlefield that is within 6” of a table edge and more than 9” from enemy models. The unit can then make a normal move (it cannot Advance).</description>
+    </rule>
+  </sharedRules>
+</catalogue>
